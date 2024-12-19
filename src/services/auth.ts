@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://x8hv3gj2-5000.inc1.devtunnels.ms/api/auth';
 
 const authAxios = axios.create({
     baseURL: API_URL,
